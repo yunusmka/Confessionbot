@@ -8,7 +8,7 @@
          "aykhan_s",
          "RoBotlarimTg"
       ],   
-   "repository": "https://github.com/aykhan026/EtirafBot-RoBotlarimTg",
+   "repository": "https://github.com/Iregullar/EtirafBot-RoBotlarimTg",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
@@ -36,39 +36,39 @@
       },
       "kanal": {
          "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
-         "value": "EtirafClub"
+         "value": "İtirafTelegramEvi"
       },
       "BOT_AD": {
          "description": "Botun usernamesini bura yazın @ işarəsi ilə",
-         "value": "@EtirafClubBot"
+         "value": "@itiraftelegramBot"
       },
       "sahib": {
          "description": "Bura öz usernamenizi yazın @ işarəsi olmadan",
-         "value": "aykhan_s"
+         "value": "olumcuIkaptan"
       },      
       "support": {
          "description": "Bura support qrupunuz/kanalınız varsa @ işarəsi olmadan yazın yoxdusa olduğu kimi buraxın",
-         "value": "RoBotlarimTg"
+         "value": "BotDestekGrubu"
       },
       "startmesaj": {
          "description": "Bota start verilən zaman yazılan mesaj",
-         "value": "**Salam, Xoş Gəldin** __Heçkimə demədiyin etirafları mənə deyə bilərsən__ 🤭"
+         "value": "**Merhaba, Nasılsın** __Bana hiç söylemediğiniz itirafları söyleyebilirsiniz__ 🤭"
       },
       "qrupstart": {
          "description": "Bot əgər hansısa qrupa qatılıbsa start verilərsə qrupda yazdığı mesaj",
-         "value": "✅ **Mən Aktivəm !** 💌 **Etiraf yazmaq üçün şəxsidən yazın**"
+         "value": "✅ **Ben Aktifim !** 💌 **İtirafı yazmak için şahsen yazın**"
       },
       "etirafmsg": {
          "description": "Etiraf edilən zaman botun verdiyi sual",
-         "value": "**Etirafını necə paylaşım ?** 🤔"
+         "value": "**İtirafı nasıl paylaşırım?** 🤔"
       }, 
       "etirafyaz": {
          "description": "Etiraf etməy istəyən istifadəçiyə yazılan mesaj",
-         "value": "**Buyur bir etiraf yaz Daha sonra mən onun açıq və ya anonim olacağını soruşacam** 😍"
+         "value": "**Buyur Bana Bir İtiraf Yaz Daha Sonra Aık mı ? Anonim mi ? Sorucam!** 😍"
       },
       "gonderildi": {
          "description": "Etiraf edəndən sonra yazılan mesaj (öz kanalınızı yazın)",
-         "value": "✅ **Etirafınız göndərildi Adminlər tərəfindən təsdiq olunduqdan sonra @EtirafClub kanalında paylaşılacaq**"
+         "value": "✅ **İtirafınız, yöneticiler tarafından onaylandıktan sonra @İtirafTelegramEvi kanalında yayınlanacaktır**"
       }
       
    }
