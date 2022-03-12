@@ -115,13 +115,13 @@ async def anonim(event):
      yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni İtiraf**\n\n🗣️ **İtiraf Eden -** {etiraf_eden} \n📜 **İtirafı -** {mesaj} \n\n📣 İtirafınızı {botad} -a edin")
      tesdiq = await yeni_etiraf.reply("İtirafın Onaylanması ?", buttons=(
                       [
-                       Button.inline("✅ Onaylandı", data="tesdiq"
+                       Button.inline("✅ Onayla", data="tesdiq"
                        ),
                        Button.inline("🗑️ Sil", data="sil")
                       ]
                     ),
                     link_preview=False)
-    await client.send_message(log_qrup, f"ℹ️ {gonderen} __Anonim Etiraf Yazdı__")
+    await client.send_message(log_qrup, f"ℹ️ {gonderen} __Anonim İtiraf Yazdı__")
     await event.edit(f"{gonderildi}", buttons=(
                       [
                        Button.inline("💌 Yeni İtiraf", data="etiraf"),
@@ -140,9 +140,9 @@ async def aciq(event):
      etiraf_eden = f"[{usr.first_name}](tg://user?id={usr.id})"
      sonluq = f"\n💌 İtirafınızı {botad} -a edin"
      yeni_etiraf = await client.send_message(admin_qrup, f"📣 **Yeni İtiraf**\n\n🗣️ **İtiraf Eden -** {etiraf_eden} \n📜 **İtirafı -** {mesaj} \n{sonluq}")
-     tesdiq = await yeni_etiraf.reply("Etiraf Təsdiqlənsin ?", buttons=(
+     tesdiq = await yeni_etiraf.reply("İtirafın Onaylanması ?", buttons=(
                       [
-                       Button.inline("✅ Onaylandı", data="tesdiq"
+                       Button.inline("✅ Onayla", data="tesdiq"
                        ),
                        Button.inline("🗑️ Sil", data="sil")
                       ]
