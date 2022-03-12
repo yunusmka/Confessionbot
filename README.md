@@ -2,7 +2,7 @@
   <h1>💌 İtirafBot</h1>
 </div>
 <p align="center">
-    Telegramda asanlıqla öz qrupunuz üçün etiraf botu yaradın
+    Telegramda Yardım İçin Destek 
     <br>
         <a href="https://t.me/itiraftelegramBot">İtiraf Bot</a> |
         <a href="https://t.me/SohbetDestek">Destek Kanalı</a> |
