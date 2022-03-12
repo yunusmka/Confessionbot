@@ -4,5 +4,5 @@ cryptg
 requests
 heroku3
 asyncio
-aiohttp
+aiohtt
 requests
