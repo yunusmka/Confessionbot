@@ -49,7 +49,7 @@ async def start(event):
                       [
                        Button.inline("💌 Etiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 Etiraf Kanalı', f'https://t.me/{kanal}')],
+                      [Button.url('📜 Etiraf Kanalı', f'https://t.me/itiraftelegramevi')],
                       [Button.url('📣 Destek', f'https://t.me/{support}'),
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
                     ),
