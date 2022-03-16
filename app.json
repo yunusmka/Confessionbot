@@ -52,11 +52,11 @@
       }, 
       "etirafyaz": {
          "description": "Etiraf etməy istəyən istifadəçiyə yazılan mesaj",
-         "value": "**Buyur bir itiraf yaz Daha sonra ben onun açık ve ya anonim olacağını ileteceğim** 😍"
+         "value": "**Merhaba bir itiraf yaz. Daha sonra ben onun açık ve ya anonim olacağını ileteceğim Adminlerime yayınlanması için** 😍"
       },
       "gonderildi": {
          "description": "Etiraf edəndən sonra yazılan mesaj (öz kanalınızı yazın)",
-         "value": "✅ **Etirafınız göndərildi Adminlər tərəfindən təsdiq olunduqdan sonra @EtirafClub kanalında paylaşılacaq**"
+         "value": "✅ **İtirafınız gönderildi. Adminlər tarafından onaylandıktan sonra @vaypezevenk kanalında paylaşılacaktır.**"
       }
       
    }
