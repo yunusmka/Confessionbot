@@ -36,15 +36,15 @@ async def start(event):
                       [
                        Button.inline("💌 Etiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
+                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{KANAL}')],
+                      [Button.url('📣 Support', f'https://t.me/{SUPPORT}'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{SAHİBİ}')]
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"{qrupstart}")
+    return await client.send_message(event.chat_id, f"{GRUB_START}")
 
 # Başlanğıc Button
 @client.on(events.callbackquery.CallbackQuery(data="start"))
@@ -55,18 +55,18 @@ async def handler(event):
                       [
                        Button.inline("💌 İtiraf Yaz", data="itiraf")
                       ],
-                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
+                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{KANAL}')],
+                      [Button.url('📣 Support', f'https://t.me/{SUPPORT}'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{SAHİBİ}')]
                     ),
                     link_preview=False)
 
-# Etiraf Et
+# İTİRAFLAR
 @client.on(events.callbackquery.CallbackQuery(data="İtiraf"))
 async def handler(event):
     await event.edit(f"{etirafyaz}", buttons=(
                       [
-                      Button.inline("🏠 Ana Səhifə", data="start")
+                      Button.inline("🏠 Ana Sayfa", data="start")
                       ]
                     ),
                     link_preview=False)
