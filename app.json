@@ -34,20 +34,8 @@
          "description": "Bu qrupa botunuz giriş çıxış bilgiləri və xüsusi gizli məlumatlar göndərəcəy bu qrupda yalnız özünüz olun",
          "value": ""
       },
-      "kanal": {
-         "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
-         "value": ""
-      },
       "BOT_AD": {
          "description": "Botun usernamesini bura yazın @ işarəsi ilə",
-         "value": ""
-      },
-      "sahib": {
-         "description": "Bura öz usernamenizi yazın @ işarəsi olmadan",
-         "value": ""
-      },      
-      "support": {
-         "description": "Bura support qrupunuz/kanalınız varsa @ işarəsi olmadan yazın yoxdusa olduğu kimi buraxın",
          "value": ""
       },
       "startmesaj": {
