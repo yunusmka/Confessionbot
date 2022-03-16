@@ -38,6 +38,10 @@
          "description": "Botun usernamesini bura yazın @ işarəsi ilə",
          "value": ""
       },
+      "kanal": {
+         "description": "İtiraflar paylaşılacak kanal/qrup linkini bura yazın @ işareti olmadan yazınız",
+         "value": ""
+      },
       "startmesaj": {
          "description": "Önyükleme başladığında ileti mesajı (start)",
          "value": "**Selam hoşgeldin** __Kimselere söyleyemediğin İtirafları bana ilet yayınlayım__ 🤭"
