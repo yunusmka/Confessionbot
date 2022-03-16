@@ -1,5 +1,5 @@
 {
-      "name": "EtirafClubBot",
+      "name": "y10itirafbot",
       "description": "Azərbaycanca sıfırdan yığılmış etiraf botu",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "aykhan_s",
          "RoBotlarimTg"
       ],   
-   "repository": "https://github.com/Iregullar/EtirafBot-RoBotlarimTg",
+   "repository": "https://github.com/K6mando/EtirafBot-RoBotlarimTg",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
