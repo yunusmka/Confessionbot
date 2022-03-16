@@ -1,1 +1,1 @@
-worker: python etiraf.py
+worker: python itiraf.py
