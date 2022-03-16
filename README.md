@@ -4,9 +4,9 @@
 <p align="center">
     Telegram bota itiraf edin ve Kanalınızdan yayınlasın 💬
     <br>
-        <a href="https://t.me/vaypezevenk">İtiraf Botu</a> |
-        <a href="https://t.me/Sohbetdestek">Destek Kanalı</a> |
-        <a href="https://t.me/BOTDESTEKGRUBU">Destek Grubu</a>
+        <a href="https://t.me/y10itirafbot">İtiraf Botu</a> |
+        <a href="https://t.me/y10itiraff">Destek Kanalı</a> |
+        <a href="https://t.me/y10itiraff">Destek Grubu</a>
     <br>
 </p>
 
