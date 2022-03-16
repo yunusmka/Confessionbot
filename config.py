@@ -20,4 +20,4 @@ etirafyaz = os.environ.get("etirafyaz")
 qrupstart = os.environ.get("qrupstart")
 gonderildi = os.environ.get("gonderildi")
 
-
+#Sohbetdestek
