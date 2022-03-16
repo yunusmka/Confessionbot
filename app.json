@@ -1,5 +1,5 @@
 {
-      "name": "EtirafClubBot",
+      "name": "İtiraf_Botu",
       "description": "Telegram Destekli eglence amaçlı yazılmış botlar",
       "keywords": [
          "telegram",
@@ -34,39 +34,39 @@
          "description": "Bu qrupa botunuz giriş çıxış bilgiləri və xüsusi gizli məlumatlar göndərəcəy bu qrupda yalnız özünüz olun",
          "value": "-6271773727"
       },
-      "kanal": {
+      "KANAL": {
          "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
          "value": "EtirafClub"
       },
-      "BOT_AD": {
+      "BOT_ADI": {
          "description": "Botun usernamesini bura yazın @ işarəsi ilə",
          "value": "@EtirafClubBot"
       },
-      "sahib": {
+      "SAHİB": {
          "description": "Bura öz usernamenizi yazın @ işarəsi olmadan",
          "value": "aykhan_s"
       },      
-      "support": {
+      "SUPPORT": {
          "description": "Bura support qrupunuz/kanalınız varsa @ işarəsi olmadan yazın yoxdusa olduğu kimi buraxın",
          "value": "RoBotlarimTg"
       },
-      "startmesaj": {
+      "START_MESAJI": {
          "description": "Bota start verilən zaman yazılan mesaj",
          "value": "**Salam, Xoş Gəldin** __Heçkimə demədiyin etirafları mənə deyə bilərsən__ 🤭"
       },
-      "qrupstart": {
+      "GRUB_START": {
          "description": "Bot əgər hansısa qrupa qatılıbsa start verilərsə qrupda yazdığı mesaj",
          "value": "✅ **Mən Aktivəm !** 💌 **Etiraf yazmaq üçün şəxsidən yazın**"
       },
-      "etirafmsg": {
+      "İTİRAF": {
          "description": "Etiraf edilən zaman botun verdiyi sual",
          "value": "**Etirafını necə paylaşım ?** 🤔"
       }, 
-      "etirafyaz": {
+      "İTİRAFYAZ": {
          "description": "Etiraf etməy istəyən istifadəçiyə yazılan mesaj",
          "value": "**Buyur bir etiraf yaz Daha sonra mən onun açıq və ya anonim olacağını soruşacam** 😍"
       },
-      "gonderildi": {
+      "GÖNDERİLDİ": {
          "description": "Etiraf edəndən sonra yazılan mesaj (öz kanalınızı yazın)",
          "value": "✅ **Etirafınız göndərildi Adminlər tərəfindən təsdiq olunduqdan sonra @EtirafClub kanalında paylaşılacaq**"
       }
