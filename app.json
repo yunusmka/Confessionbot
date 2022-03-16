@@ -23,7 +23,7 @@
          "value": ""
       },    
       "ADMIN_QRUP": {
-         "description": "İtirafları onaylamak için bir ekip oluşturun. oluşturduğunuz botu o gruba ve yöneticiye atın ve buraya yazın",
+         "description": "İtirafları onaylamak için bir ekip oluşturun. oluşturduğunuz botu o gruba (id) ve yöneticiye atın ve buraya yazın",
          "value": ""
       },      
       "ETIRAF_QRUP": {
