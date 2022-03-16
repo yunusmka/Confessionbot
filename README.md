@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>💌 EtirafClubBot</h1>
+  <h1>💌 İtiraf Etme Botu</h1>
 </div>
 <p align="center">
-    Telegramda asanlıqla öz qrupunuz üçün etiraf botu yaradın
+    Telegram bota itiraf edin ve Kanalınızdan yayınlasın 💬
     <br>
         <a href="https://t.me/EtirafClubBot">EtirafClubBot</a> |
         <a href="https://t.me/RoBotlarimTg">Dəstək Kanalı</a> |
