@@ -143,7 +143,7 @@ async def aciq(event):
                     link_preview=False)
 aciq = etiraf_aciq.decode("utf8")
   
-@client.on(events.callbackquery.CallbackQuery(data="onayla"))
+@client.on(events.callbackquery.CallbackQuery(data="tesdiq"))
 async def tesdiq(event):
     global tesdiq
     async for usr in client.iter_participants(event.chat_id):
