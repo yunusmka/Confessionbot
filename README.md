@@ -12,7 +12,7 @@
 
 ----
 ### ♿ Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Iregullar/EtirafBot-RoBotlarimTg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yunusmka/EtirafBot)
 
 
 
