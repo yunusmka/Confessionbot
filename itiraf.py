@@ -14,7 +14,7 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.messages import ForwardMessagesRequest
 from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
-from config import client, admin_qrup, etiraf_qrup, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz
+from config import client, admin_qrup, etiraf_qrup, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz, kanal
 
 logging.basicConfig(
     level=logging.INFO,
@@ -36,7 +36,7 @@ async def start(event):
                       [
                        Button.inline("💌 Etiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/vaypezevenk')],
+                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
                       [Button.url('📣 Support', f'https://t.me/Sohbetdestek'),
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/mahoaga')]
                     ),
@@ -55,7 +55,7 @@ async def handler(event):
                       [
                        Button.inline("💌 İtiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/vaypezevenk')],
+                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
                       [Button.url('📣 Support', f'https://t.me/Sohbetdestek'),
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Mahoaga')]
                     ),
