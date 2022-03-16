@@ -56,8 +56,8 @@ async def handler(event):
                        Button.inline("💌 İtiraf Yaz", data="etiraf")
                       ],
                       [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/Sohbetdestek'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Mahoaga')]
+                      [Button.url('📣 Support', f'https://t.me/y10itiraf'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/mkaofc')]
                     ),
                     link_preview=False)
 
