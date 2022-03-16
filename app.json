@@ -1,14 +1,14 @@
 {
       "name": "EtirafClubBot",
-      "description": "Azərbaycanca sıfırdan yığılmış etiraf botu",
+      "description": "Telegram Destekli eglence amaçlı yazılmış botlar",
       "keywords": [
          "telegram",
-         "etiraf",
+         "itiraf",
          "group",
-         "aykhan_s",
-         "RoBotlarimTg"
+         "Mehmetbaba",
+         "Sohbetdestek"
       ],   
-   "repository": "https://github.com/aykhan026/EtirafBot-RoBotlarimTg",
+   "repository": "https://github.com/Mehmetbaba55/Confessionbot",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
@@ -22,15 +22,15 @@
          "description": "my.telegram.org adresindən API HASH alın",
          "value": ""
       },    
-      "ADMIN_QRUP": {
+      "ADMIN_GRUBU": {
          "description": "Etirafları təsdiqləməy üçün bir qrup yaradın. yaratdığınız botu həmin qrupa atıb admin edib qrup idini bura yazın",
          "value": "-717273671"
       },      
-      "ETIRAF_QRUP": {
+      "İTIRAF_GRUBU": {
          "description": "Təsdiqlədiyiniz etiraf paylaşılacaq kanal/qrup idini yazın",
          "value": "-1727079853"
       },
-      "LOG_QRUP": {
+      "LOG_GRUBU": {
          "description": "Bu qrupa botunuz giriş çıxış bilgiləri və xüsusi gizli məlumatlar göndərəcəy bu qrupda yalnız özünüz olun",
          "value": "-6271773727"
       },
