@@ -14,7 +14,7 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.messages import ForwardMessagesRequest
 from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
-from config import client, admin_qrup, etiraf_qrup, kanal, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz, sahib, support
+from config import client, admin_qrup, etiraf_qrup, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz
 
 logging.basicConfig(
     level=logging.INFO,
@@ -36,9 +36,9 @@ async def start(event):
                       [
                        Button.inline("💌 Etiraf Yaz", data="etiraf")
                       ],
-                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
+                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/vaypezevenk')],
+                      [Button.url('📣 Support', f'https://t.me/vaypezevenk'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/mahoaga')]
                     ),
                     link_preview=False)
 
@@ -55,9 +55,9 @@ async def handler(event):
                       [
                        Button.inline("💌 İtiraf Yaz", data="itiraf")
                       ],
-                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/{kanal}')],
-                      [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
+                      [Button.url('📜 İtiraf Kanalı', f'https://t.me/vaypezevenk')],
+                      [Button.url('📣 Support', f'https://t.me/vaypezevenk'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/Mahoaga')]
                     ),
                     link_preview=False)
 
